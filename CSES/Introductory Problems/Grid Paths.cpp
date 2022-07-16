@@ -67,7 +67,7 @@ int dfs(int i, int x, int y)
     return cnt;
 }
 
-void solve()
+void myMain()
 {
     cin >> s;
     cout << dfs(0, 0, 0) << endl;
@@ -83,6 +83,6 @@ int main()
     int t = 1;
 //    cin >> t;
     while (t--)
-        solve();
+        myMain();
     return 0;
 }
